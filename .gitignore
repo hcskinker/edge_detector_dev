@@ -1,0 +1,6 @@
+# Ignore Project Files 
+detector_top*/
+
+# Ignore Vivado Log files
+*.log
+*.jou
