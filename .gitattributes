@@ -1,0 +1,8 @@
+# Defaulat Text files for CRLF line endings
+* text=auto 
+
+# Files that will always have LF line endings (Xilinx Vivado Files)
+*.veo text eol=lf
+*.vho text eol=lf
+*.xci text eol=lf
+*.xml text eol=lf
