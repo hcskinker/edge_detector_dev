@@ -1,15 +1,13 @@
 ///////////////////////////////////////////////////////////////////////////////
 //  FERMI RESEARCH LAB
 ///////////////////////////////////////////////////////////////////////////////
-//  Author         : Martin Di Federico
-//  Date           : 1-2024
-//  Version        : 1
+//  Author         : Christian Skinker (Template Provided by Martin Di Federico)
+//  Date           : 3-2024
+//  Version        : 2
 ///////////////////////////////////////////////////////////////////////////////
-//  QICK PROCESSOR :  Custom Peripheral Template
+//  QICK PROCESSOR :  Time Tagger Peripheral 
 /* Description: 
-    Top Level of the Peripheral Template. It includes two modules
-    1) The axi_qick_peripheral core processing unit
-    2) The Axi Register, used to read and write from Python.
+    (Work in progress)
 */
 //////////////////////////////////////////////////////////////////////////////
 
@@ -78,6 +76,7 @@ wire [31:0] r_axi_dt1, r_axi_dt2, r_axi_dt3, r_axi_dt4;
 wire [31:0] r_qp_dt1, r_qp_dt2, r_qp_dt3, r_qp_dt4;
 reg  [31:0] r_qp_status, r_qp_debug;
 
+// Not available to public
 axi_slv_qp # (
 ) AXI_REG (
    .aclk       ( ps_clk             ) , 

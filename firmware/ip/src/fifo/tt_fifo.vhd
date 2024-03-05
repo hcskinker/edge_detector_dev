@@ -1,5 +1,7 @@
 -- Add Logic to Calculate the number of values in fifo
 
+-- FERMILAB 
+-- (Altered by Christian Skinker)
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

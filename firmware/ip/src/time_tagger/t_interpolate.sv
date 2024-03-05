@@ -2,16 +2,12 @@
 //  FERMI RESEARCH LAB
 ///////////////////////////////////////////////////////////////////////////////
 //  Author         : Christian Skinker
-//  Date           : 1-2024
+//  Date           : 3-2024
 //  Version        : 1
 ///////////////////////////////////////////////////////////////////////////////
 // Time Interpolator: 
 /* Description: 
-   Takes in the multiwire signal from the edge detector and shifts the subtracted time 
-   over by the amount of bits required to represent the samples width. 
-
-
-    Need's a write enable signal that's dependent on if the signal is stored
+   Interpolates Trigger Time to single sample time on (N_S) wide axi stream 
 */
 /////////////////////////////////////////////////////////////////////////////// 
 

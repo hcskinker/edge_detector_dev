@@ -2,11 +2,19 @@
 //  FERMI RESEARCH LAB
 ///////////////////////////////////////////////////////////////////////////////
 //  Author         : Christian Skinker
-//  Date           : 1-2024
+//  Date           : 3-2024
 //  Version        : 1
 ///////////////////////////////////////////////////////////////////////////////
 // Photon Acquisition Control: 
 /* Description: 
+    Time Tagger Finite State Machine Control:
+
+    States:
+    Idle (Doing nothing):
+    Armed (Checking axi stream tdata for edge crossing)
+    Triggered (Stop monitoring axi stream and store crossing in Fifo)
+    Asleep (Dead state for detector to reset before going back to Armed)
+
 */
 /////////////////////////////////////////////////////////////////////////////// 
 

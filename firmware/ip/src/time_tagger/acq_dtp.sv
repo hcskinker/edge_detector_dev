@@ -9,9 +9,9 @@
 /* Description: 
     All of the logic necessary to calculate the time of arrival of a photon
 
-    1. FIR filter to filter out noise 
-    2. DSP Logic for Time of Arrival Calculations 
-    3. 
+    Integrates together t_interpolate and edge_detect to return exact edge crossing in axi stream tdata
+    
+    Provides control input signals to acquistion control to switch between Armed, triggered, and asleep states
 */
 //////////////////////////////////////////////////////////////////////////////
 
@@ -61,6 +61,7 @@ always_ff @(posedge clk_i, negedge rst_ni) begin
         else tt_curr_time <= 0;
      end
 end
+
 /////////////////////////////////////////////////////////////////////////////
 // Storing the Trigger Time (Prevents effects from latency)
 /////////////////////////////////////////////////////////////////////////////

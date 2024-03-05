@@ -1,14 +1,13 @@
 ///////////////////////////////////////////////////////////////////////////////
-//  FERMI RESEARCH LAB
+//  Princeton Jeff Thompson Lab Collaboration with FERMILAB
 ///////////////////////////////////////////////////////////////////////////////
-//  Author         : Martin Di Federico
-//  Date           : 1-2024
-//  Version        : 1
+//  Author         : Christian Skinker (Template provided by Martin Di Federico)
+//  Date           : 3-2024
+//  Version        : 2
 ///////////////////////////////////////////////////////////////////////////////
-//  QICK PROCESSOR :  Custom Peripheral Template
+//  QICK PROCESSOR :  qick Time Tagger Peripheral Core 
 /* Description: 
-    Core processing unit: implement here the peripheral.
-    Eventually name this time tagger top 
+    Core processing unit: 
 */
 //////////////////////////////////////////////////////////////////////////////
 `include "../headers/cmd_err.svh"
